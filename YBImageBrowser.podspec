@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "YBImageBrowser"
+  s.name         = "YBImageBrowserUseYYKit"
   s.version      = "2.1.8"
   s.summary      = "image browser for iOS (powerful, superior performance)"
   s.description  = <<-DESC
@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-  s.author             = { "杨波" => "1106355439@qq.com" }
+  s.author             = { "码农弟弟" => "790512128@qq.com" }
  
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/indulgeIn/YBImageBrowser.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/manondidi/YBImageBrowser", :tag => "#{s.version}" }
 
   s.source_files  = "YBImageBrowser/**/*.{h,m}"
   # s.exclude_files = "YBImageBrowser/Exclude"
@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'SDWebImage', '~>5.0.0'
-  s.dependency 'YYImage'
+  # s.dependency 'YYImage'
+  s.dependency 'YYKit'
 
 end

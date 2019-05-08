@@ -6,22 +6,8 @@
 //  Copyright © 2018年 杨波. All rights reserved.
 //
 
-#if __has_include(<YYImage/YYImage.h>)
-#import <YYImage/YYFrameImage.h>
-#import <YYImage/YYSpriteSheetImage.h>
-#import <YYImage/YYImageCoder.h>
-#import <YYImage/YYAnimatedImageView.h>
-#elif __has_include(<YYWebImage/YYImage.h>)
-#import <YYWebImage/YYFrameImage.h>
-#import <YYWebImage/YYSpriteSheetImage.h>
-#import <YYWebImage/YYImageCoder.h>
-#import <YYWebImage/YYAnimatedImageView.h>
-#else
-#import "YYFrameImage.h"
-#import "YYSpriteSheetImage.h"
-#import "YYImageCoder.h"
-#import "YYAnimatedImageView.h"
-#endif
+#import <YYKit/YYKit.h>
+
 
 NS_ASSUME_NONNULL_BEGIN
 
